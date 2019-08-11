@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/dist/css/main.css" />
+    <link rel="stylesheet" href="/dist/css/simplelightbox.min.css" />
+    <title>Charlie Ylijoki's Portfolio</title>
+  </head>
+
+  <body id="home">
+    <nav class="navbar">
+      <div class="container">
+        <img src="/dist/img/logo-1564880603016.png" class="logo" />
+        <ul class="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section id="about" class="section-a">
+        <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
+        <h2 class="sm-heading">
+          Hi I'm Charlie
+        </h2>
+        <div class="about-info">
+          <img
+            src="/dist/img/unnamed.jpg"
+            alt="Charlie Ylijoki"
+            class="bio-image"
+          />
+          <div class="bio">
+            <h3 class="text-secondary">BIO</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              obcaecati illum quam voluptatibus maxime aliquid fugiat unde ut
+              blanditiis cum voluptate veritatis, ipsam quos saepe ipsa pariatur
+              eum fuga! Reprehenderit.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/charles-ylijoki/"
+              class="btn-light"
+            >
+              Linked-In
+              <i class="fa fa-angle-double-right"></i>
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section-b">
+        <h1 class="lg-heading">
+          My <span class="text-secondary">Projects</span>
+        </h1>
+        <div class="jobs">
+          <div class="job job-1">
+            <h2 class="underline">Pinball League Database</h2>
+            <h4 class="inner-text">
+              Javascript // Node.js // MySQL // Handlebars
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi non
+              nisi quis aliquid culpa officia sed id ipsum, fugit debitis.
+            </p>
+            <div class="item">
+              <!-- <a href="#!">
+              <img src="img/projects/project1.jpg" alt="Project" srcset="" />
+            </a> -->
+              <!-- <a href="#!" class="btn-light">
+                <i class="fa fa-eye"></i> Project
+              </a> -->
+              <a
+                href="https://github.com/ylijokic/CS-340-Project"
+                class="btn-dark"
+              >
+                <i class="fa fa-github"></i> Github
+              </a>
+            </div>
+          </div>
+          <div class="job job-2">
+            <h2 class="underline">Text-Based Battle Game</h2>
+            <h4 class="inner-text">C++</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi non
+              nisi quis aliquid culpa officia sed id ipsum, fugit debitis.
+            </p>
+            <div class="item">
+              <!-- <a href="#!">
+              <img src="img/projects/project2.jpg" alt="Project" srcset="" />
+            </a> -->
+              <!-- <a href="#!" class="btn-light">
+                <i class="fa fa-eye"></i> Project
+              </a> -->
+              <a
+                href="https://github.com/ylijokic/Battle-Game"
+                class="btn-dark"
+              >
+                <i class="fa fa-github"></i> Github
+              </a>
+            </div>
+          </div>
+          <div class="job job-3">
+            <h2 class="underline">Giph Generator</h2>
+            <h4 class="inner-text">Javascript // HTML5 // CSS</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi non
+              nisi quis aliquid culpa officia sed id ipsum, fugit debitis.
+            </p>
+            <div class="item">
+              <!-- <a href="#!">
+              <img src="img/projects/project3.jpg" alt="Project" srcset="" />
+            </a> -->
+              <!-- <a href="#!" class="btn-light">
+                <i class="fa fa-eye"></i> Project
+              </a> -->
+              <a
+                href="https://github.com/ylijokic/Giph-Generator"
+                class="btn-dark"
+              >
+                <i class="fa fa-github"></i> Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <div class="projects"></div> -->
+      <section id="contact" class="section-c">
+        <h1 class="lg-heading">
+          Contact <span class="text-secondary">Me</span>
+        </h1>
+      </section>
+
+      <section class="section-c">
+        <div id="form-main">
+          <div id="form-div">
+            <form class="montform" id="reused_form">
+              <p class="name">
+                <input
+                  name="name"
+                  type="text"
+                  class="feedback-input"
+                  required
+                  placeholder="Name"
+                  id="name"
+                />
+              </p>
+              <p class="email">
+                <input
+                  name="email"
+                  type="email"
+                  required
+                  class="feedback-input"
+                  id="email"
+                  placeholder="Email"
+                />
+              </p>
+              <p class="text">
+                <textarea
+                  name="message"
+                  class="feedback-input"
+                  id="comment"
+                  placeholder="Message"
+                ></textarea>
+              </p>
+              <button href="#!" class="btn-dark">
+                <i class="fa fa-paper-plane"></i> Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="main-footer">
+      <div class="container">
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/charles-ylijoki/">
+            <i class="fa fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://github.com/ylijokic">
+            <i class="fa fa-github fa-2x"></i>
+          </a>
+        </div>
+        Copyright &copy; 2019
+      </div>
+    </footer>
+  </body>
+</html>
