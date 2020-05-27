@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Modern Single Page Portfolio",
   "main": "index.js",
-  "homepage": "https://ylijokic.github.io/Portfolio",
+  "homepage": "https://ylijokic.github.io/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
